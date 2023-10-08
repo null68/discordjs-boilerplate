@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "prettier": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-cron": "^3.0.9",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@discordjs/core": "^1.0.1",
+    "@discordjs/rest": "^2.0.1",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.13.0",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.2",
+    "path": "^0.12.7"
+  }
+}
