@@ -15,10 +15,7 @@ To properly initialize the event, this file has to be added to the event directo
 \*Example of Library Event: **ready.ts\***
 
 ```typescript
-import CommandHandler from "../../services/commandhandler";
-import CronJobHandler from "../../services/cronhandler";
 import Logger from "../../services/logger";
-import UtilHandler from "../../services/utilhandler";
 import Bot from "../../structure/client";
 import { Event } from "../../structure/event";
 
