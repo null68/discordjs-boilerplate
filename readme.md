@@ -30,9 +30,6 @@ export default class Ready extends Event {
     });
   }
   async execute(): Promise<void> {
-    await CommandHandler.init(this.client);
-    await CronJobHandler.init(this.client);
-    await UtilHandler.init(this.client);
     Logger.info("Online");
   }
 }
